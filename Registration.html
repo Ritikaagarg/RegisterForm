@@ -1,0 +1,124 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>
+            Registration Form
+        </title>
+    </head>
+    <body>
+        <div>
+            <span>
+                <img src="kelltonlogo.jpg" class="logo">
+            </span>
+
+            <!--creating top navigation bar-->
+            <span class="navbar">
+                <a href=" " target="_blank"><u>Home</u></a>|
+                <a href=" " target="_blank"><u>Products</u></a>|
+                <a href=" " target="_blank"><u>Company</u></a>|
+                <a href=" " target="_blank"><u>Blog</u></a>
+            </span>
+            <span class="searchbar">
+                <input type="search" placeholder="Search">
+            </span>
+        </div>
+
+        <div class="description"><b>Online registration</b></div>
+        <p><h3>This is an online registration form for the participants to register and enter their details. Interested people can register
+            by filling all the correct details. There should not be any discrepency while filling the details. The organizer reserves the right 
+            not to accept participants who have entered wrong, false, insufficient data or late payment. After submitting the details, 
+            the participants would require to enter the payment through the selected payamnt gateway. Once you are done with the complete
+            process, you will be given the time, date and venue to appear for the event. 
+        </h3></p>
+
+        <!-- To enter user details-->
+        <form>
+            <table class="userDetails">
+                <tr>
+                    <td>Title </td>
+                    <td>
+                        <select>
+                            <option>Mr.</option>
+                            <option>Mrs.</option>
+                            <option>Ms.</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text" placeholder="First Name"></td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td><input type="text" placeholder="Last Name"></td>
+                </tr>
+                <tr>
+                    <td>DOB</td>
+                    <!-- using date type to enter date using calender-->
+                    <td><input type="date"</td>
+                </tr>
+                <tr>
+                    <td>Full Address</td>
+                    <td><textarea rows=10 cols=22></textarea></td>
+                </tr>
+                <tr>
+                    <td>Items you want</td>
+                    <td><textarea rows=7 cols=22 placeholder="Item One
+                    Item Two
+                    Item Three"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Choose any</td>
+                    <td><input type="radio">Choice One<br>
+                    <input type="radio">Choice Two<br>
+                    <input type="radio">Choice Three</td>
+                </tr>
+                <tr>
+                    <td>Increment Number</td>
+                    <td><input type="number" min="1" max="10"</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox">Agree with Terms and Conditions</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button type="button">Register</button> &nbsp
+                        <button type="button">Save Draft</button></td>
+                </tr>
+            </table>
+        </form>
+
+        
+    </body>
+</html>
+<style>
+    .logo{
+        padding: 10px;
+        width: 85px;
+        align: left;
+    }
+    .navbar{
+        font-size: 16px;
+    }
+    .searchbar{
+        margin-top: 40px;
+        margin-right: 30px;
+        float: right;
+    }
+    .description{
+        padding: 10px;
+        font-family:Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 40px;
+        text-transform: capitalize;
+    }
+    .userDetails{
+        width:45%;
+        padding:45px;
+    }
+    tr,td{
+        padding:5px; 
+    }
+    
+</style>
